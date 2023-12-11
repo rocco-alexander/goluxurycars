@@ -1,0 +1,18 @@
+{
+    "cars":[
+        { "stock_number":"1234567" , "vin":"1234567" , "name":"Toyota RV4 2019" , "trim":"CGX" , "color":"Vanessa Blue/Retro Black", "retail_price":"$37,984" , "mileage":"20km" , "days_in_stock":"32" , "condition":"New" , "package":"GH2-2ASD" },
+        { "stock_number":"1234567" , "vin":"1234567" , "name":"Toyota MR2 2003" , "trim":"CGX" , "color":"Green", "retail_price":"$77,984" , "mileage":"20km" , "days_in_stock":"32" , "condition":"New" , "package":"GH2-2ASD" },
+        { "stock_number":"1234567" , "vin":"1234567" , "name":"Mazda Mirai 2008" , "trim":"CGX" , "color":"Vanessa Blue/Retro Black", "retail_price":"$230,984" , "mileage":"20km" , "days_in_stock":"32" , "condition":"New" , "package":"GH2-2ASD" }
+    ],
+    "sale":[
+        { "sale_id":"1234567" , "vehicle":"2003 Audi A1" , "client":"China Vehicles" , "vin":"1231232" , "order_date":"10/23/23" , "status":"waiting for dispatch" , "price":"$37,900" , "outstanding_balance":"$37,900" , "freight_forwarder":"Yusen Logistics" },
+        { "sale_id":"1234567" , "vehicle":"2003 Audi A2" , "client":"China Vehicles" , "vin":"1231232" , "order_date":"10/23/23" , "status":"waiting for dispatch" , "price":"$37,900" , "outstanding_balance":"$37,900" , "freight_forwarder":"Yusen Logistics" },
+        { "sale_id":"1234567" , "vehicle":"2003 Audi A3" , "client":"China Vehicles" , "vin":"1231232" , "order_date":"10/23/23" , "status":"waiting for dispatch" , "price":"$37,900" , "outstanding_balance":"$37,900" , "freight_forwarder":"Yusen Logistics" }
+    ],
+    "clients":[
+        { "client_id":"1234" , "name":"Chinese Vehicles TM" , "sales_agent":"Tim Lee" , "completed":"" , "in_progress":"" , "sold":"" , "balance":"" , "contact":"", "orders":"" },
+        { "client_id":"4321" , "name":"Timothy Lee" , "sales_agent":"Tim Lee" , "completed":"" , "in_progress":"" , "sold":"" , "balance":"" , "contact":"", "orders":"" },
+        { "client_id":"4312" , "name":"James Horton" , "sales_agent":"Tim Lee" , "completed":"" , "in_progress":"" , "sold":"" , "balance":"" , "contact":"", "orders":"" }
+    ]
+}
+

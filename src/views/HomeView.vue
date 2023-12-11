@@ -68,7 +68,7 @@ setup(){
   const formRef = ref(null);
   const formValue = ref({
     sale: {
-      orderId:'3',
+      orderId:'',
       salesRep:'',
       orderDate:'',
       totalSalePrice:'',

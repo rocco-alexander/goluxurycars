@@ -76,7 +76,7 @@ setup(){
     }
   })
   const load = async() =>{
-    const url = 'http://goluxu-farga-dwpuwjyjrawo-1583368234.us-east-1.elb.amazonaws.com/'
+    const url = 'https://api.beta.goluxurycars.ca/'
             await fetch ( url + 'api/sales',{
                 method : 'GET',
                 headers:{
@@ -92,7 +92,7 @@ setup(){
   }
 
   const submitCallback = async() => {
-    const url = 'http://goluxu-farga-dwpuwjyjrawo-1583368234.us-east-1.elb.amazonaws.com/'
+    const url = 'https://api.beta.goluxurycars.ca/'
     console.log(new Date(formValue.value.sale.orderDate).toISOString())
             await fetch ( url + 'api/sales',{
                 method : 'POST',

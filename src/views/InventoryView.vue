@@ -124,7 +124,7 @@ setup(){
     }
   })
   const load = async() =>{
-    const url = 'http://goluxu-farga-dwpuwjyjrawo-1583368234.us-east-1.elb.amazonaws.com/'
+    const url = 'https://api.beta.goluxurycars.ca/'
             await fetch ( url + 'api/vehicles',{
                 method : 'GET',
                 headers:{
@@ -141,7 +141,7 @@ setup(){
 
   const submitCallback = async() => {
     console.log('this is submitting', JSON.stringify(formValue.value.vehicle))
-    const url = 'http://goluxu-farga-dwpuwjyjrawo-1583368234.us-east-1.elb.amazonaws.com/'
+    const url = 'https://api.beta.goluxurycars.ca/'
             await fetch ( url + 'api/vehicles',{
                 method : 'POST',
                 headers:{

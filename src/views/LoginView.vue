@@ -42,7 +42,7 @@ export default {
                 email: modelRef.value.email,
                 password: modelRef.value.password
             }
-            const url = ' http://goluxu-farga-dwpuwjyjrawo-1583368234.us-east-1.elb.amazonaws.com/'
+            const url = 'https://api.beta.goluxurycars.ca/'
             await fetch ( url + 'api/auth/login',{
                 method : 'POST',
                 headers: {
@@ -55,7 +55,7 @@ export default {
                 token.value = data;
                 localStorage.setItem("token",`${data.token}`)
                 console.log(localStorage.getItem("token"));
-                router.push('/Sales');
+                router.push('/Sales')
             })
         }
 
